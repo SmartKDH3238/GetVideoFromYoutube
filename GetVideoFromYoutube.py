@@ -9,7 +9,7 @@ from pytube import YouTube
 import time
 
 def lobby():
-    caution = '''만약 영상이 다운로드 되지 않는다면, 암호화 문제에요 lol'''
+    caution = '''만약 영상이 다운로드 되지 않는다면, 암호화 문제에요 lol\n'''
     print(caution)
     url = input("URL 주소를 입력해주세요 : ")
     file_adress = list(input("원하는 파일 주소를 입력해주세요(만약 입력하지 않으면 현재 파일에 다운로드 됩니다 + 상대경로 사용 가능합니다.) : "))
